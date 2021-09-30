@@ -11,7 +11,7 @@ $update_id = $val['update_id'];
 $sender = $val['message']['from'];
 
 if ($text == "/start") {
-    file_get_contents($apiLink . "sendmessage?chat_id=$chat_id&text=Kamu bisa membuat sudoku dengan format PDF. Ketik /generate untuk membuat Sudoku.");
+    file_get_contents($apiLink . "sendmessage?chat_id=$chat_id&text=Foto orang yang tidak ada didunia. Ketik /generate untuk membuat Foto.");
     return false;
 } else if ($text == "/donasi") {
     file_get_contents($apiLink . "sendmessage?chat_id=$chat_id&text=Untuk donasi developer, silahkan kunjungi: https://saweria.co/rasitech");
